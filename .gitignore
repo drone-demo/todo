@@ -2,3 +2,4 @@ packages
 test/packages
 web/packages
 out
+*~

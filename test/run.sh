@@ -12,4 +12,10 @@ then
   exit 1
 fi
 
+analysis=$(dart_analyzer web/*.dart)
+echo -e "$analysis"
+if [[ "$results" != "" ]]
+  then exit 1
+fi
+
 exit 0
