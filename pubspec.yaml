@@ -1,0 +1,7 @@
+name:  todo
+description:  A simple Todo list
+
+dependencies:
+  js: any
+  unittest: any
+  browser: any
