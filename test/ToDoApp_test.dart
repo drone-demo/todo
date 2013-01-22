@@ -28,7 +28,8 @@ void main() {
     expect(toDoErr.classes, contains("hide"));
   });
 
-  test("test todo text limit", () {
+  num x="test todo text limit";
+  test(x, () {
      expect(ToDoApp.isTooLong("go skydiving"), equals(false));
      expect(ToDoApp.isTooLong("this is a really, really, really long task that exceeds 50 characters and should fail this test"), equals(true));
   });
